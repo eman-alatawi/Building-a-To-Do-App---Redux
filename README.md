@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+## Building a To-Do App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### DESCRIPTION
 
-## Available Scripts
+Build an app using React and Redux where the user can add new to-dos and can remove to-dos after completing the respective tasks.
 
-In the project directory, you can run:
+### Background of the problem statement:
 
-### `npm start`
+You are a web developer at an IT company. The company has decided to launch a new app called Track Your Task, where users can add tasks, move tasks to done, and also delete the tasks. During sprint planning, you agree to lead this project and develop an app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### You must use the following tools:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ - NodeJS: To build JavaScript applications
 
-### `npm test`
+- Visual Studio Code: An IDE to code for the application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React: To build the application
 
-### `npm run build`
+- Redux: To manage the state of components in the application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Git: To connect and push files from the local system to GitHub
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- GitHub: To store the application code and track its versions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Following requirements should be met:
 
-### `npm run eject`
+- The app should be responsive.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- There should only be one source of truth for state management.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The app should have functionalities to add new to-dos, mark tasks as completed, and delete the to-dos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## List of technologies used in this project:
+- ReactJS
+- React Bootstrap
+- React Hooks
+  - useState()
+- react-redux hooks
+  - useDispatch() 
+  - useSelector()
+- uuid
+- sweetalert
+- GitHub
+- Visual Studio Code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## App Screenshot:
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![website](https://drive.google.com/uc?export=view&id=1tBQ2gibFLjzYBZYU7ta0_DYsB8UTxOu_)
 
-### Analyzing the Bundle Size
+![website](https://drive.google.com/uc?export=view&id=1_CnGls298lHjxQfFXK6mtGDgj1TfX0Sb)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![website](https://drive.google.com/uc?export=view&id=1lr_1tLSJClatFsPeBgR1UEGplTWxMBCa)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![website](https://drive.google.com/uc?export=view&id=1T6QlJ-tITxjWLAEHtiHVk9PHR4n3-mqY)
 
-### Advanced Configuration
+![website](https://drive.google.com/uc?export=view&id=1q0ClhcYBx1GiONBOsIt4mqGN20wxjJ_e)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Some useful Resources:
+
+
+- [sweetalert ~ A beautiful replacement for JavaScript's "alert"][https://www.npmjs.com/package/sweetalert]
+
+- [uuid ~ For the creation of RFC4122 UUIDs][https://www.npmjs.com/package/uuid]
+
+
